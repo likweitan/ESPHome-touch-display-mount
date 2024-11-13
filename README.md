@@ -1,6 +1,6 @@
 # 2.8" ILI9341 Touch Display Enclosure for ESP32 with Home Assistant Integration
 
-This project provides ESPHome config files and 3D-printable files for an enclosure designed to house a 2.8" ILI9341 touch display. Compatible with standalone 2.8" ILI9341 touch display connected to an ESP32 boards or using the ESP32-2432S028 (integrating an ESP32 Wroom module and ILI9341 display on one board), this setup serves as an external, touchscreen-enabled display for your Home Assistant environment.
+This project provides ESPHome config files and 3D-printable files for an enclosure designed to house a 2.8" ILI9341 touch display. Compatible with standalone 2.8" ILI9341 touch display connected to an ESP32 board or using the ESP32-2432S028 (integrating an ESP32 Wroom module and ILI9341 display on one board), this setup serves as an external, touchscreen-enabled display for your Home Assistant environment.
 
 The enclosure is designed for mounting beneath a desk and includes a swivel joint, allowing for easy adjustments to the viewing angle while keeping all cables neatly concealed for a clean, streamlined look. The touchscreen offers multiple customizable buttons linked to Home Assistant automations, making it easy to control functions such as lighting—and you’re free to create additional buttons as desired.
 
@@ -59,7 +59,7 @@ or
 ## a) Using an ESP32-2432S028
 Simply connect to USB and flash the ESP using the yml file in the esphome directory. If your board is designed different check the pin layout
 
-| Glow R5                      | PIN          | Comment                                              |
+| ESP32-2432S028               | PIN          | Comment                                              |
 |------------------------------|--------------|------------------------------------------------------|
 | LCD                          |              |                                                      |
 | clk_pin                      | GPIO14       | SPI LCD Clock                                        |
