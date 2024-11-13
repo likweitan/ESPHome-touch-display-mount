@@ -77,6 +77,9 @@ Simply connect to USB and flash the ESP using the yml file in the esphome direct
 | ledc                         | GPIO21       | Backlight LED display                                |
 | ledc                         | GPIO4        | Onboard LED (not used for this project)              |
 
+To power the device, use the VIN and GND pins from the JST port (typically provided with a JST-to-pin cable). Pass the cable through the case using the hole in the center which runs through the swivel joint and connect these ends to the 5V and GND wires of an old USB cable
+
+
 ## b) Using an 2.8" ILI9141 standalone connected to an ESP32 Wroom 32D
 Follow the connection diagram, which shows how to put everything together.
 
