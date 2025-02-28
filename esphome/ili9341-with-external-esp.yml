@@ -243,6 +243,7 @@ display:
     id: my_display
     spi_id: lcd
     model: ILI9341
+    color_palette: 8BIT
     cs_pin: 27
     dc_pin: 26
     reset_pin: 16
