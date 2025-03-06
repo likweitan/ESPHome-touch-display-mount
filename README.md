@@ -119,5 +119,7 @@ Feel free to adjust and remix the 3D cover to your needs. Its designed in Fusion
 
 
 
+# More projects
+Looking for more cool projects using this display? Check out the [LoctekMotion Touch Display GitHub repository](https://github.com/3DJupp/LoctekMotion-TouchDisplay)! This awesome project takes the same 2.8" ILI9341 touchscreen setup and repurposes it—not for lights, but for controlling a height-adjustable Flexispot desk with ease. If you're into smart home automation and custom builds, it's definitely worth a look!
 
 
